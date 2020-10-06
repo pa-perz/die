@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+
+body {
+  background-color: lightsteelblue;
+  color: #454545;
+  font-family: "Sansita Swashed", serif;
+}
+
+.die {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10%;
+}
+
+#die__number {
+  font-size: 5rem;
+  margin: 0 0 0 0;
+  padding: 0px 30px 10px 30px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0px 0px 80px 1px black;
+  border-radius: 5%;
+}
+
+#die__button {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-family: "Sansita Swashed", serif;
+  background-color: rgba(240, 240, 240);
+  color: #454545;
+  border: none;
+  padding: 0.5rem 1rem;
+  box-shadow: 0px 0px 0px 1px black;
+}
